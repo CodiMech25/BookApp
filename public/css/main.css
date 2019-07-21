@@ -1,0 +1,163 @@
+* {
+    font-family: Airal, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    color: dimgray;
+    border-spacing: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+div#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+div#content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table tr th {
+    border: solid 1px black;
+    border-right: none;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: lightgray;
+}
+
+table tr th:last-child {
+    border-right: solid 1px black;
+}
+
+table tr td {
+    border: solid 1px black;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+    font-size: 12px;
+}
+
+table tr td:last-child {
+    border-right: solid 1px black;
+}
+
+table tr td.links {
+    text-align: center;
+}
+
+div.table-links {
+    padding: 10px 0;
+    text-align: right;
+    overflow: hidden;
+}
+
+div.form-links {
+    padding: 10px 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+}
+
+input[type="text"] {
+    border: solid 1px black;
+    padding: 5px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+select {
+    border: solid 1px black;
+    padding: 4px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+select option {
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    padding: 6px;
+    font-size: 12px;
+    margin: 5px 0;
+    background: royalblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+div.warning {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: indianred;
+}
+
+div.errors {
+    display: block;
+    overflow: hidden;
+}
+
+div.errors span.error {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    background: indianred;
+    color: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+div.messages {
+    display: block;
+    overflow: hidden;
+}
+
+div.messages span.success {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    background: forestgreen;
+    color: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+div.messages span.failure {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    background: indianred;
+    color: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+}
